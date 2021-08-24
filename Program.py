@@ -15,6 +15,9 @@ class user:
 choices = ['rock','paper','scissors']
 
 def Game_rules():
+    print('\nA player who decides to play rock will beat another player who has chosen scissors ("rock crushes scissors"),\
+         \nbut will lose to one who has played paper ("paper covers rock"); a play of paper will lose to a play of scissors ("scissors cuts paper").\
+         \nIf both players choose the same shape, the game is tied and is usually immediately replayed to break the tie.')
     pass
 
 def win_or_lose(p_ch):                  #returns win ,tie or lose
@@ -74,7 +77,8 @@ def redo():
         return False
 
 if __name__=="__main__":
-    print('Welcome to the game of rock paper and scissors')
+    print('\n----------------------------------------------------------------------------------------------------------')
+    print('\nWelcome to the game of rock paper and scissors')
     play()
     print('\n----------------------------------------------------------------------------------------------------------')
     pause("\n\nGame Finished!!! \n\nPress any key to exit....")
