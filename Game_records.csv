@@ -20,3 +20,8 @@ Rohan,18,paper,Won
 Rohan,19,rock,Tie
 Rohan,22,rock,Won
 Rohan,-1,rock,Lose
+supriyo,3,paper,Won
+supriyo,2,rock,Lose
+supriyo,3,scissors,Tie
+supriyo,2,paper,Lose
+supriyo,3,paper,Tie
